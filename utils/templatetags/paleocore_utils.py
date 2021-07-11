@@ -1,7 +1,6 @@
 from django import template
 from wagtail.documents.models import Document
 from contact.models import ContactPage
-from blog.models import BlogPage
 from pages.models import Testimonial, Advert
 
 register = template.Library()

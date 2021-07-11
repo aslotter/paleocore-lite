@@ -1,7 +1,8 @@
-Django==2.2.24
+#Django==2.2.24
+Django==3.0.14
 wagtail==2.13.2
 celery==4.2.1
-django-compressor==2.2
+django-compressor==2.4.1
 django-environ==0.4.5
 django-foundation-formtags==0.1.0
 django-wagtail-feeds==0.1.0
@@ -13,9 +14,9 @@ wand==0.5.0
 bleach==3.3.0
 ls.joyous==0.9.0
 wagalytics==0.8.1
-django-countries==5.3.3
-django-allauth==0.39.1
-django-braces==1.13.0
+django-countries==7.2.1
+django-allauth==0.45.0
+django-braces==1.14.0
 django-mptt==0.11.0
 django-leaflet==0.26.0
 django-publications==1.0.0

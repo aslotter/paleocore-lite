@@ -1,4 +1,4 @@
-PROJECT_NAME = paleocore
+PROJECT_NAME = paleocorelite
 SHELL := /bin/sh
 help:
 	@echo "Please use 'make <target>' where <target> is one of"

@@ -61,45 +61,28 @@ INSTALLED_APPS = (
 
     'foundation_formtags',
     'wagtail_feeds',
-    'ls.joyous',  # calendar app
     'ckeditor',  # enhanced editing - used by projects app
     'mapwidgets',  # geom editing widgets - used by projects app
     'unicodecsv',  # unicode encoding for csv - used by mlp app
     'import_export',  # generic import-export - used by projects app
     'djgeojson',  # Django geojson
     'leaflet',  # leaflet mapping
-    'mptt',  # modified pre-ordered tree traversal - used to manage hierarchies and trees
+    'mptt',  # modified pre-ordered tree traversal - used to manage hierarchies and tree
+    'django_countries',
 
-
-    'blog',  # generic blog app
     'contact',  # contact information app
     'documents_gallery',  # documents app
     'gallery',  # image gallery app
     'pages',  # app that contains the site page models
-    'people',  # people app
-    'products',  # products app
     'publications',  # publications app
     'search',
     'utils',
 
-    # The following apps are interrelated.
     # The individual project apps inherit model classes from the projects app
-    'projects',  # projects app
-    'standard',  # data standard app
-    'drp',  # Dikika Research Project
-    'mlp',  # Mille-Logya Project
-    'hrp',  # Hadar Research Project
-    'lgrp',  # Ledi-Geraru Research Project
+    'projects',  # projects app - required
     'eppe',  # Eyasi Plateau Paleontology Project
-    'gdb',  # Greate Divide Basin
-    'omo_mursi',  # Omo Mursi
-    'origins',  # Origins
-    'psr', # Paleo Silk Road
     'cc',  # Combe Capelle
     'fc',  # Fontechevadpc
-    'wtap',  # West Turkana Archaeology Project
-    'arvrc',  # African Rift Valley Research Consortium
-    'eval',  # Evaluation
     'paleosites',  # paleosites
 
     'wagtail.contrib.routable_page',
@@ -228,7 +211,7 @@ WAGTAILADMIN_RICH_TEXT_EDITORS = {
 # https://docs.djangoproject.com/en/1.8/ref/settings/#databases
 
 DATABASES = {
-    'default': env.db('DATABASE_URL', default='postgres:///paleocore'),
+    'default': env.db('DATABASE_URL', default='postgres:///paleocorelite'),
 }
 
 DATABASES['default']['ATOMIC_REQUESTS'] = True
