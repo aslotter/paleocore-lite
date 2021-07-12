@@ -9,5 +9,8 @@
 #     __version__ = 'unknown'
 #     import warnings
 #     warnings.warn('No distribution found.')
-__version__ = "3.2.0"
+
+# Simple version info. pkg_resources is blacklisted!!
+VERSION = (3, 2, 0)
+__version__ = '.'.join(map(str, VERSION))
 GEOJSON_DEFAULT_SRID = 4326
