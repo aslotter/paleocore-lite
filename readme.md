@@ -1,9 +1,9 @@
-paleocore
+Paleo Core
 ==================
 
 Paleo Core Project
 
-Install Dependencies
+Install dependencies
 --------------------
 * Python > 3.8. On mac the easiest way to install python is with [homebrew](https://brew.sh/)
 * PostgreSQL > 10. On mac the easiest way is to install [postgres.app](https://postgresapp.com/)
