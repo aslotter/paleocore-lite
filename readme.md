@@ -1,7 +1,7 @@
-Paleo Core
+Paleo Core Lite
 ==================
 
-Paleo Core Project
+Paleo Core Lite Project
 
 Install dependencies
 --------------------
